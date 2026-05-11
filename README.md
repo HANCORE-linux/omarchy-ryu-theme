@@ -1,1 +1,1 @@
-# omarchy-ryu-ink-theme
+# Ryū-Ink
