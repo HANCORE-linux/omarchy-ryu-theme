@@ -1,7 +1,7 @@
-@define-color selected-text #808F88;
+@define-color selected-text #75897F;
 @define-color text #D6D0C5;
 @define-color base #050505;
-@define-color border #404040;
+@define-color border #51605b;
 @define-color foreground #D6D0C5;
 @define-color background #050505;
 
@@ -33,7 +33,7 @@ window .box-wrapper {
     margin: 0;
     min-width: 230px;
     max-width: 230px;
-    border: 1.5px solid transparent;
+    border: 1.5px solid @border;
     background-image: linear-gradient(alpha(@base, 0.98), alpha(@base, 0.98)),
                       linear-gradient(135deg,
                         alpha(@border, 0.45),
@@ -45,10 +45,11 @@ window .box-wrapper {
     background-clip: padding-box, border-box;
     animation: open 200ms cubic-bezier(0.34, 1.2, 0.64, 1) forwards;
     transform-origin: top center;
+    box-shadow: 0 2px 12px alpha(black, 0.85);
 }
 
 window .search-container {
-    border-bottom: 1px solid alpha(#808F88, 1);
+    border-bottom: 1px solid alpha(#df6124, 1);
     padding: 5px 8px;
     margin-bottom: 4px;
     background: transparent;
