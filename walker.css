@@ -1,0 +1,87 @@
+@define-color selected-text #808F88;
+@define-color text #D6D0C5;
+@define-color base #050505;
+@define-color border #404040;
+@define-color foreground #D6D0C5;
+@define-color background #050505;
+
+@keyframes open {
+    from {
+        opacity: 0;
+        transform: scaleY(0.3);
+    }
+    to {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+
+window * {
+    all: unset;
+    color: @text;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+window .box-wrapper {
+    background: alpha(@base, 0.98);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0;
+    min-width: 230px;
+    max-width: 230px;
+    border: 1.5px solid transparent;
+    background-image: linear-gradient(alpha(@base, 0.98), alpha(@base, 0.98)),
+                      linear-gradient(135deg,
+                        alpha(@border, 0.45),
+                        alpha(@base, 0.8),
+                        alpha(@border, 0.25),
+                        alpha(@base, 0.8),
+                        alpha(@border, 0.4));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    animation: open 200ms cubic-bezier(0.34, 1.2, 0.64, 1) forwards;
+    transform-origin: top center;
+}
+
+window .search-container {
+    border-bottom: 1px solid alpha(#808F88, 1);
+    padding: 5px 8px;
+    margin-bottom: 4px;
+    background: transparent;
+}
+
+window .input {
+    background: transparent;
+    color: @text;
+}
+
+window .item-text-box {
+    padding: 7px 0;
+}
+
+window .item-box {
+    padding: 0 8px;
+    border-radius: 5px;
+    transition: background 150ms ease;
+}
+
+window .item-image {
+    -gtk-icon-size: 18px;
+    margin-right: 10px;
+}
+
+window .normal-icons { -gtk-icon-size: 18px; }
+window .large-icons  { -gtk-icon-size: 18px; }
+
+window child:selected .item-box {
+    background: alpha(@selected-text, 0.18);
+}
+
+window child:selected .item-box * {
+    color: @selected-text;
+    transition: color 150ms ease;
+}
