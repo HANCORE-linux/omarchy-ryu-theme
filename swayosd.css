@@ -24,6 +24,6 @@ window:backdrop #container {
     background-color: @background-color;
     padding: 12px;
     background-clip: padding-box;
-    box-shadow: 2px 2px 9px 0px rgba(5, 5, 5, 1);
+    box-shadow: 2px 2px 9px 0px rgba(5, 5, 5, 0.7);
 
 }
