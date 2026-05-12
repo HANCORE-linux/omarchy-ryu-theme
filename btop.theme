@@ -23,15 +23,15 @@ theme[inactive_fg]="#404040"
 theme[graph_text]="#dcd7ce"
 
 # Background color of the percentage meters
-theme[meter_bg]="#D6D0C5"
+theme[meter_bg]="#232b28"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
 theme[proc_misc]="#dcd7ce"
 
 # CPU, Memory, Network, Proc box outline colors
-theme[cpu_box]="#888f72"
+theme[cpu_box]="#C2A46D"
 theme[mem_box]="#8B9388"
-theme[net_box]="#C2A46D"
+theme[net_box]="#da614e"
 theme[proc_box]="#525e5a"
 
 # Box divider line and small boxes line color
@@ -39,48 +39,48 @@ theme[div_line]="#404040"
 
 # Temperature graph color (Green -> Yellow -> Red)
 theme[temp_start]="#8B9388"
-theme[temp_mid]="#D8C59A"
-theme[temp_end]="#C2A46D"
+theme[temp_mid]="#51605b"
+theme[temp_end]="#da614e"
 
 # CPU graph colors (Teal -> Blue -> Purple)
-theme[cpu_start]="#52565e"
-theme[cpu_mid]="#525e5a"
-theme[cpu_end]="#888f72"
+theme[cpu_start]="#717C7C"
+theme[cpu_mid]="#75897F"
+theme[cpu_end]="#C2A46D"
 
 # Mem/Disk free meter
-theme[free_start]="#888f72"
-theme[free_mid]="#525e5a"
-theme[free_end]="#52565e"
+theme[free_start]="#C2A46D"
+theme[free_mid]="#75897F"
+theme[free_end]="#717C7C"
 
 # Mem/Disk cached meter
-theme[cached_start]="#525e5a"
-theme[cached_mid]="#52565e"
-theme[cached_end]="#888f72"
+theme[cached_start]="#75897F"
+theme[cached_mid]="#717C7C"
+theme[cached_end]="#C2A46D"
 
 # Mem/Disk available meter
-theme[available_start]="#D8C59A"
-theme[available_mid]="#C2A46D"
-theme[available_end]="#C2A46D"
+theme[available_start]="#51605b"
+theme[available_mid]="#da614e"
+theme[available_end]="#da614e"
 
 # Mem/Disk used meter (Green -> Teal -> Blue)
 theme[used_start]="#8B9388"
-theme[used_mid]="#52565e"
-theme[used_end]="#525e5a"
+theme[used_mid]="#717C7C"
+theme[used_end]="#75897F"
 
 # Download graph colors
-theme[download_start]="#D8C59A"
-theme[download_mid]="#C2A46D"
-theme[download_end]="#C2A46D"
+theme[download_start]="#51605b"
+theme[download_mid]="#da614e"
+theme[download_end]="#da614e"
 
 # Upload graph colors (Green -> Teal -> Blue)
 theme[upload_start]="#8B9388"
-theme[upload_mid]="#52565e"
-theme[upload_end]="#525e5a"
+theme[upload_mid]="#717C7C"
+theme[upload_end]="#75897F"
 
 # Process box color gradient for threads, mem and cpu usage
-theme[process_start]="#52565e"
-theme[process_mid]="#525e5a"
-theme[process_end]="#888f72"
+theme[process_start]="#717C7C"
+theme[process_mid]="#75897F"
+theme[process_end]="#C2A46D"
 
 # Graph gradient colors (spectrum shades from background to foreground)
 theme[gradient_color_0]="#050505"
