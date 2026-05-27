@@ -28,12 +28,12 @@ window * {
 
 window .box-wrapper {
     background: alpha(@base, 0.98);
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 8px;
     margin: 0;
     min-width: 230px;
     max-width: 230px;
-    border: 1.5px solid @border;
+    border: 2px solid @border;
     background-image: linear-gradient(alpha(@base, 0.98), alpha(@base, 0.98)),
                       linear-gradient(135deg,
                         alpha(@border, 0.45),
