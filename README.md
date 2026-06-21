@@ -21,6 +21,7 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-ryu-theme.git
 [Link](https://github.com/OldJobobo/theme-hook-plugin-manager)
 
 ### Contributions
+[iamnubdesigner](https://github.com/imanubdesigner) - for polishing the Wallpapers  <br>
 [OldJobobo](https://github.com/OldJobobo) - for helping me out to finish the Wallpapers  <br>
 [atif](https://github.com/atif-1402) - for using his walker.css config file  <br>
 
