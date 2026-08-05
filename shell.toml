@@ -1,0 +1,148 @@
+# Omarchy Quattro surfaces for Ryū.
+# Ink-black surfaces, parchment typography, sage selection, and the
+# sage-to-vermillion Hyprland border carry the ink-wash identity into Quattro.
+
+[bar]
+background = "#050505"
+background-alpha = 1.0
+text = "#D6D0C5"
+active = "#DF6124"
+scale-with-font = true
+size-horizontal = 26
+size-vertical = 28
+
+[hyprland]
+active-border = "rgba(525e5aee) rgba(525e5aee) rgba(8B9388ee) rgba(8B9388ee) rgba(da614eee) rgba(da614eee) 90deg"
+active-border-foreground = "#D6D0C5"
+
+[controls]
+normal-color = "#8B9388"
+normal-fill-alpha = 0.05
+normal-border-width = 1
+normal-border-alpha = 0.30
+
+hover-cursor-color = "#75897F"
+hover-cursor-fill-alpha = 0.10
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.50
+
+focus-color = "#DF6124"
+focus-fill-alpha = 0.12
+focus-border-width = 1
+focus-border-alpha = 0.82
+
+selected-color = "#75897F"
+selected-fill-alpha = 0.18
+selected-border-width = 1
+selected-border-alpha = 0.46
+
+pressed-color = "#DA614E"
+pressed-fill-alpha = 0.22
+selection-color = "#C2A46D"
+selection-fill-alpha = 0.38
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+xs = 2
+md = 4
+control-padding-y = 5
+panel-padding = 10
+
+[font]
+base-size = 12
+heading = 16
+icon-large = 18
+
+[popups]
+background = "#050505"
+background-alpha = 1.0
+text = "#DF6124"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+
+[tooltip]
+background = "#050505"
+background-alpha = 0.98
+text = "#D6D0C5"
+border = "#51605B"
+border-alpha = 0.86
+border-width = 1
+
+[notifications]
+background = "#050505"
+background-alpha = 1.0
+text = "#D6D0C5"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+countdown = "#DF6124"
+
+[launcher]
+background = "#050505"
+background-alpha = 0.98
+text = "#8B9388"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+scrim = "#050505"
+scrim-alpha = 0.0
+selected-background = "#75897F"
+selected-background-alpha = 0.18
+selected-text = "#FFF9ED"
+selected-border = "#75897F"
+selected-border-alpha = 0.0
+selected-border-width = 0
+
+[menu]
+background = "#050505"
+background-alpha = 0.98
+text = "#8B9388"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+scrim = "#050505"
+scrim-alpha = 0.0
+selected-background = "#75897F"
+selected-background-alpha = 0.18
+selected-text = "#FFF9ED"
+selected-border = "#75897F"
+selected-border-alpha = 0.0
+selected-border-width = 0
+
+[polkit]
+background = "#050505"
+background-alpha = 0.98
+text = "#D6D0C5"
+text-error = "#DA614E"
+border = "hyprland.active-border"
+border-error = "#DA614E"
+border-alpha = 1.0
+border-width = 2
+scrim = "#050505"
+scrim-alpha = 0.50
+accent = "#C2A46D"
+
+[lock]
+background = "#050505"
+background-alpha = 1.0
+text = "#D6D0C5"
+placeholder = "#D6D0C5B3"
+text-error = "#DA614E"
+border = "hyprland.active-border"
+border-active = "hyprland.active-border"
+border-error = "#DA614E"
+border-alpha = 1.0
+border-width = 2
+selection = "#C2A46D"
+selection-alpha = 0.45
+
+[image-picker]
+scrim = "#050505"
+scrim-alpha = 0.50
+text = "#D6D0C5"
+selected-border = "#75897F"
+selected-border-alpha = 1.0
+unselected-border = "#51605B"
+unselected-border-alpha = 0.60
